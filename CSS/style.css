@@ -1,0 +1,90 @@
+/*for all pages*/
+
+img {
+    height: 30rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.bgbox1 {
+    background-image: url(img/lib.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.bgbox2 {
+    height: 70rem;
+    background-image: url(img/lib.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.bookbg {
+    background-image: url(img/leder.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    color: white;
+}
+
+
+/*create.php & update.php*/
+
+.cbox1 {
+    height: 80rem;
+}
+
+.cbox2 {
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+}
+
+
+/*a_create.php & a_update & delete.php & a_delete.php*/
+
+.acbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myerror {
+    margin-top: 10rem;
+    width: 50rem;
+    height: 20rem;
+    text-align: center;
+    background-color: darkred;
+    border-radius: 25px;
+    color: white;
+    padding-top: 1rem;
+}
+
+.mysuccess {
+    margin-top: 10rem;
+    width: 50rem;
+    height: 20rem;
+    text-align: center;
+    background-color: darkgreen;
+    border-radius: 25px;
+    color: white;
+    padding-top: 1rem;
+}
+
+.errorp {
+    font-size: 200%;
+    margin: 4rem;
+}
